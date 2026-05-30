@@ -1,10 +1,46 @@
-# Python-generated files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Build and packaging artifacts
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
 
-# Virtual environments
-.venv
+# Test and coverage output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Type checker / notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and local settings
+.env
+.env.*
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
