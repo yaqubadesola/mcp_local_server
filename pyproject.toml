@@ -7,4 +7,6 @@ requires-python = ">=3.10"
 dependencies = [
     "mcp[cli]>=1.9.1",
     "openai>=1.82.0",
+    "pyautogui>=0.9.54",
+    "requests>=2.34.2",
 ]
